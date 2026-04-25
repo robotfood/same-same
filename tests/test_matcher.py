@@ -14,3 +14,15 @@ def test_matching():
     assert matches[0]['company_idx'] == 0
     assert matches[0]['vendor_idx'] == 0
     assert matches[0]['score'] >= 0.8
+    # Verify sorting
+    assert matches[0]['score'] >= matches[1]['score']
+
+def test_matching_empty():
+    matcher = Matcher(threshold=0.8)
+    assert matcher.find_matches(np.empty((0, 2)), np.array([[1, 0]])) == []
+
+def test_matching_no_hits():
+    matcher = Matcher(threshold=0.99)
+    company_vecs = np.array([[1.0, 0.0]])
+    vendor_vecs = np.array([[0.0, 1.0]])
+    assert matcher.find_matches(company_vecs, vendor_vecs) == []
