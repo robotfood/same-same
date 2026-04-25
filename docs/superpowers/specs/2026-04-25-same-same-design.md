@@ -1,7 +1,7 @@
-# Defect Deduplication Tool Design Specification
+# same-same Design Specification
 
 ## 1. Goal
-Build a Python-based CLI tool to identify duplicate defect descriptions between two CSV files (Company vs. Vendor) using semantic similarity. The tool is designed to handle approximately 8,000 company defects and 16,000 vendor defects (128 million comparisons).
+Build a Python-based CLI tool (code named same-same) to identify duplicate defect descriptions between two CSV files (Company vs. Vendor) using semantic similarity. The tool is designed to handle approximately 8,000 company defects and 16,000 vendor defects (128 million comparisons).
 
 ## 2. Architecture
 The tool follows a "Direct Matrix" approach for maximum accuracy and semantic coverage:
