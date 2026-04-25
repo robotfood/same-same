@@ -1,0 +1,16 @@
+[project]
+name = "same-same"
+version = "0.1.0"
+description = "Semantic defect deduplication tool"
+dependencies = [
+    "spacy>=3.0.0",
+    "scikit-learn",
+    "pandas",
+    "numpy",
+]
+
+[project.scripts]
+same-same = "same_same.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
