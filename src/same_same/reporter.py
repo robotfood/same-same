@@ -19,9 +19,9 @@ class Reporter:
             "| :--- | :--- | :--- |"
         ]
         for m in matches:
-            # Escape pipes and replace newlines to maintain Markdown table structure
-            c_desc = str(m['company_desc']).replace('|', '\\|').replace('\n', ' ')
-            v_desc = str(m['vendor_desc']).replace('|', '\\|').replace('\n', ' ')
+            # Escape pipes using HTML entity and replace newlines to maintain Markdown table structure
+            c_desc = str(m['company_desc']).replace('|', '&#124;').replace('\n', ' ')
+            v_desc = str(m['vendor_desc']).replace('|', '&#124;').replace('\n', ' ')
             lines.append(f"| {m['score']:.4f} | {c_desc} | {v_desc} |")
         
         with open(self.output_path, 'w') as f:

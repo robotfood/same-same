@@ -25,5 +25,5 @@ def test_generate_report_with_special_chars(tmp_path):
     
     content = output_path.read_text()
     # Pipes should be escaped, newlines should be replaced
-    assert "Pipe \\| in desc" in content
+    assert "Pipe &#124; in desc" in content
     assert "Newline in desc" in content or "Newline <br> in desc" in content
