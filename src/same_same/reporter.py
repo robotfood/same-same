@@ -19,7 +19,10 @@ class Reporter:
             "| :--- | :--- | :--- |"
         ]
         for m in matches:
-            lines.append(f"| {m['score']:.4f} | {m['company_desc']} | {m['vendor_desc']} |")
+            # Escape pipes and replace newlines to maintain Markdown table structure
+            c_desc = str(m['company_desc']).replace('|', '\\|').replace('\n', ' ')
+            v_desc = str(m['vendor_desc']).replace('|', '\\|').replace('\n', ' ')
+            lines.append(f"| {m['score']:.4f} | {c_desc} | {v_desc} |")
         
         with open(self.output_path, 'w') as f:
             f.write("\n".join(lines))
