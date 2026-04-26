@@ -49,6 +49,21 @@ A Markdown file containing:
 - **Phase 4: Similarity Math:** Implement matrix multiplication and threshold filtering.
 - **Phase 5: Reporting:** Format and save the results to Markdown.
 
-## 7. Constraints & Considerations
+## 7. Testing and Validation
+The tool's semantic matching is validated using a generated dataset focused on cloud-native microservices infrastructure (Kubernetes, AWS, Databases, Messaging).
+
+### 7.1 Mock Dataset Structure
+- **Internal Defects (`internal_defects.csv`):** 50 unique microservice issues with technical descriptions.
+- **Vendor Defects (`vendor_defects.csv`):** 150 defects, including 50 paraphrased matches of the internal list and 100 unique "noise" issues.
+
+### 7.2 Semantic Mapping Strategy
+Matches are validated using paraphrased terminology (e.g., "latency" vs "response time", "unauthorized" vs "403 error").
+- **Example (Internal):** "Redis connection pool exhausted in checkout service."
+- **Example (Vendor):** "Checkout app unable to acquire session from cache due to limit reach."
+
+### 7.3 Generation Tool
+The `scripts/generate_mock_data.py` script utilizes microservice-specific failure templates to generate varied and realistic CSV datasets for testing.
+
+## 8. Constraints & Considerations
 - **Memory:** The similarity matrix (8,000 x 16,000 floats) requires ~512MB of RAM. Total memory usage should remain under 4GB.
 - **Domain Specifics:** The tool will handle rail-specific terms (signals, interlockings) through standard semantic similarity, with potential for regex-based ID normalization in future iterations.
