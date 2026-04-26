@@ -31,3 +31,17 @@ Then run the tool:
 ```bash
 same-same --config config.json
 ```
+
+## Testing with Mock Data
+
+You can generate a realistic set of cloud microservices defects (50 internal, 150 vendor) to test the semantic matching:
+
+```bash
+# Generate the mock CSV files
+python3 scripts/generate_mock_data.py
+
+# Run deduplication using the mock configuration
+same-same --config mock_config.json
+```
+
+This will produce `mock_deduplication_report.md` in your project root.
