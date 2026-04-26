@@ -1,0 +1,8 @@
+{
+  "company_csv_path": "internal_defects.csv",
+  "vendor_csv_path": "vendor_defects.csv",
+  "company_desc_col": "Description",
+  "vendor_desc_col": "Summary",
+  "threshold": 0.75,
+  "output_report": "mock_deduplication_report.md"
+}
