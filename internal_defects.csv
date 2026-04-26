@@ -1,0 +1,51 @@
+Defect ID,Service Name,Severity,Description
+INT-001,notification-hub,High,Redis connection pool exhausted in notification-hub.
+INT-002,search-engine,Low,OOM kill detected in search-engine pod on cluster node.
+INT-003,notification-hub,Low,S3 bucket permissions error in notification-hub file upload.
+INT-004,search-engine,High,Redis connection pool exhausted in search-engine.
+INT-005,order-processor,Low,Redis connection pool exhausted in order-processor.
+INT-006,order-processor,Critical,Redis connection pool exhausted in order-processor.
+INT-007,inventory-api,High,Latencies above 2s on /api/v1/status endpoint in inventory-api.
+INT-008,order-processor,High,S3 bucket permissions error in order-processor file upload.
+INT-009,inventory-api,Low,Auth service returning 500 on valid JWT validation.
+INT-010,order-processor,Critical,Circuit breaker open for order-processor downstream calls.
+INT-011,payment-gateway,High,Circuit breaker open for payment-gateway downstream calls.
+INT-012,inventory-api,Low,Circuit breaker open for inventory-api downstream calls.
+INT-013,payment-gateway,High,Database lock contention in payment-gateway during peak load.
+INT-014,order-processor,High,Stale data being served from order-processor local cache.
+INT-015,search-engine,Low,Circuit breaker open for search-engine downstream calls.
+INT-016,notification-hub,Medium,Database lock contention in notification-hub during peak load.
+INT-017,inventory-api,Medium,Stale data being served from inventory-api local cache.
+INT-018,auth-service,Medium,Latencies above 2s on /api/v1/status endpoint in auth-service.
+INT-019,payment-gateway,Critical,Redis connection pool exhausted in payment-gateway.
+INT-020,inventory-api,Medium,Stale data being served from inventory-api local cache.
+INT-021,payment-gateway,Medium,Redis connection pool exhausted in payment-gateway.
+INT-022,search-engine,Medium,Latencies above 2s on /api/v1/status endpoint in search-engine.
+INT-023,inventory-api,Critical,Latencies above 2s on /api/v1/status endpoint in inventory-api.
+INT-024,inventory-api,Critical,S3 bucket permissions error in inventory-api file upload.
+INT-025,search-engine,Critical,OOM kill detected in search-engine pod on cluster node.
+INT-026,auth-service,Medium,S3 bucket permissions error in auth-service file upload.
+INT-027,search-engine,Medium,Latencies above 2s on /api/v1/status endpoint in search-engine.
+INT-028,inventory-api,Medium,Kafka consumer lag exceeding 10k messages in inventory-api.
+INT-029,auth-service,Low,Stale data being served from auth-service local cache.
+INT-030,order-processor,Medium,OOM kill detected in order-processor pod on cluster node.
+INT-031,auth-service,Medium,Circuit breaker open for auth-service downstream calls.
+INT-032,search-engine,Medium,Auth service returning 500 on valid JWT validation.
+INT-033,search-engine,Medium,OOM kill detected in search-engine pod on cluster node.
+INT-034,notification-hub,High,OOM kill detected in notification-hub pod on cluster node.
+INT-035,notification-hub,High,Redis connection pool exhausted in notification-hub.
+INT-036,notification-hub,Low,Kafka consumer lag exceeding 10k messages in notification-hub.
+INT-037,search-engine,Medium,S3 bucket permissions error in search-engine file upload.
+INT-038,notification-hub,Critical,Kafka consumer lag exceeding 10k messages in notification-hub.
+INT-039,payment-gateway,High,Redis connection pool exhausted in payment-gateway.
+INT-040,search-engine,Medium,Auth service returning 500 on valid JWT validation.
+INT-041,auth-service,Low,OOM kill detected in auth-service pod on cluster node.
+INT-042,search-engine,Medium,OOM kill detected in search-engine pod on cluster node.
+INT-043,inventory-api,High,Stale data being served from inventory-api local cache.
+INT-044,payment-gateway,Critical,Kafka consumer lag exceeding 10k messages in payment-gateway.
+INT-045,order-processor,High,OOM kill detected in order-processor pod on cluster node.
+INT-046,inventory-api,High,Latencies above 2s on /api/v1/status endpoint in inventory-api.
+INT-047,payment-gateway,Critical,S3 bucket permissions error in payment-gateway file upload.
+INT-048,auth-service,Low,Kafka consumer lag exceeding 10k messages in auth-service.
+INT-049,payment-gateway,High,OOM kill detected in payment-gateway pod on cluster node.
+INT-050,notification-hub,Critical,OOM kill detected in notification-hub pod on cluster node.

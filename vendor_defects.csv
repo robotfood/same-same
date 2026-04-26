@@ -1,0 +1,151 @@
+Vendor Ticket ID,Component,Priority,Summary
+VEN-1001,notification-hub,P2,Checkout app unable to acquire session from cache in notification-hub due to limit reach.
+VEN-1002,search-engine,P0,Container restarted in search-engine due to memory exhaustion.
+VEN-1003,notification-hub,P0,Unable to save uploaded files in notification-hub: Access Denied.
+VEN-1004,search-engine,P2,Checkout app unable to acquire session from cache in search-engine due to limit reach.
+VEN-1005,order-processor,P3,Checkout app unable to acquire session from cache in order-processor due to limit reach.
+VEN-1006,order-processor,P1,Checkout app unable to acquire session from cache in order-processor due to limit reach.
+VEN-1007,inventory-api,P0,Slow response times for status check in inventory-api subsystem.
+VEN-1008,order-processor,P3,Unable to save uploaded files in order-processor: Access Denied.
+VEN-1009,inventory-api,P0,Internal server error during login token verification in inventory-api.
+VEN-1010,order-processor,P0,Requests failing to external dependency from order-processor.
+VEN-1011,payment-gateway,P3,Requests failing to external dependency from payment-gateway.
+VEN-1012,inventory-api,P1,Requests failing to external dependency from inventory-api.
+VEN-1013,payment-gateway,P1,Query timeouts in payment-gateway backend due to database blocking.
+VEN-1014,order-processor,P2,Consistency issue in order-processor: old records appearing in results.
+VEN-1015,search-engine,P1,Requests failing to external dependency from search-engine.
+VEN-1016,notification-hub,P2,Query timeouts in notification-hub backend due to database blocking.
+VEN-1017,inventory-api,P2,Consistency issue in inventory-api: old records appearing in results.
+VEN-1018,auth-service,P2,Slow response times for status check in auth-service subsystem.
+VEN-1019,payment-gateway,P3,Checkout app unable to acquire session from cache in payment-gateway due to limit reach.
+VEN-1020,inventory-api,P3,Consistency issue in inventory-api: old records appearing in results.
+VEN-1021,payment-gateway,P0,Checkout app unable to acquire session from cache in payment-gateway due to limit reach.
+VEN-1022,search-engine,P0,Slow response times for status check in search-engine subsystem.
+VEN-1023,inventory-api,P3,Slow response times for status check in inventory-api subsystem.
+VEN-1024,inventory-api,P2,Unable to save uploaded files in inventory-api: Access Denied.
+VEN-1025,search-engine,P3,Container restarted in search-engine due to memory exhaustion.
+VEN-1026,auth-service,P0,Unable to save uploaded files in auth-service: Access Denied.
+VEN-1027,search-engine,P2,Slow response times for status check in search-engine subsystem.
+VEN-1028,inventory-api,P3,inventory-api processing delay: message queue backlog detected.
+VEN-1029,auth-service,P0,Consistency issue in auth-service: old records appearing in results.
+VEN-1030,order-processor,P3,Container restarted in order-processor due to memory exhaustion.
+VEN-1031,auth-service,P1,Requests failing to external dependency from auth-service.
+VEN-1032,search-engine,P0,Internal server error during login token verification in search-engine.
+VEN-1033,search-engine,P3,Container restarted in search-engine due to memory exhaustion.
+VEN-1034,notification-hub,P3,Container restarted in notification-hub due to memory exhaustion.
+VEN-1035,notification-hub,P1,Checkout app unable to acquire session from cache in notification-hub due to limit reach.
+VEN-1036,notification-hub,P1,notification-hub processing delay: message queue backlog detected.
+VEN-1037,search-engine,P3,Unable to save uploaded files in search-engine: Access Denied.
+VEN-1038,notification-hub,P0,notification-hub processing delay: message queue backlog detected.
+VEN-1039,payment-gateway,P2,Checkout app unable to acquire session from cache in payment-gateway due to limit reach.
+VEN-1040,search-engine,P1,Internal server error during login token verification in search-engine.
+VEN-1041,auth-service,P3,Container restarted in auth-service due to memory exhaustion.
+VEN-1042,search-engine,P1,Container restarted in search-engine due to memory exhaustion.
+VEN-1043,inventory-api,P1,Consistency issue in inventory-api: old records appearing in results.
+VEN-1044,payment-gateway,P3,payment-gateway processing delay: message queue backlog detected.
+VEN-1045,order-processor,P0,Container restarted in order-processor due to memory exhaustion.
+VEN-1046,inventory-api,P0,Slow response times for status check in inventory-api subsystem.
+VEN-1047,payment-gateway,P2,Unable to save uploaded files in payment-gateway: Access Denied.
+VEN-1048,auth-service,P2,auth-service processing delay: message queue backlog detected.
+VEN-1049,payment-gateway,P3,Container restarted in payment-gateway due to memory exhaustion.
+VEN-1050,notification-hub,P0,Container restarted in notification-hub due to memory exhaustion.
+VEN-2001,notification-hub,P0,Slow loading of static assets in notification-hub.
+VEN-2002,inventory-api,P0,Feature request: add more logging to inventory-api.
+VEN-2003,search-engine,P1,UI CSS alignment issue on search-engine dashboard.
+VEN-2004,order-processor,P1,Color contrast check failed for order-processor UI.
+VEN-2005,payment-gateway,P1,Feature request: add more logging to payment-gateway.
+VEN-2006,payment-gateway,P3,Minor spelling error in payment-gateway logs.
+VEN-2007,order-processor,P2,Feature request: add more logging to order-processor.
+VEN-2008,order-processor,P0,Minor spelling error in order-processor logs.
+VEN-2009,search-engine,P0,Color contrast check failed for search-engine UI.
+VEN-2010,order-processor,P2,Update documentation for order-processor API endpoints.
+VEN-2011,search-engine,P1,Duplicate headers in search-engine response.
+VEN-2012,payment-gateway,P2,Request for architectural review of payment-gateway.
+VEN-2013,notification-hub,P2,Request for architectural review of notification-hub.
+VEN-2014,search-engine,P1,UI CSS alignment issue on search-engine dashboard.
+VEN-2015,payment-gateway,P1,Duplicate headers in payment-gateway response.
+VEN-2016,order-processor,P1,Weekly performance report for order-processor ready.
+VEN-2017,order-processor,P2,Update documentation for order-processor API endpoints.
+VEN-2018,auth-service,P1,UI CSS alignment issue on auth-service dashboard.
+VEN-2019,search-engine,P3,Color contrast check failed for search-engine UI.
+VEN-2020,auth-service,P3,Slow loading of static assets in auth-service.
+VEN-2021,search-engine,P1,Request for architectural review of search-engine.
+VEN-2022,auth-service,P2,Color contrast check failed for auth-service UI.
+VEN-2023,search-engine,P2,Color contrast check failed for search-engine UI.
+VEN-2024,auth-service,P3,Duplicate headers in auth-service response.
+VEN-2025,auth-service,P3,UI CSS alignment issue on auth-service dashboard.
+VEN-2026,search-engine,P3,Slow loading of static assets in search-engine.
+VEN-2027,search-engine,P1,Request for architectural review of search-engine.
+VEN-2028,inventory-api,P2,Duplicate headers in inventory-api response.
+VEN-2029,auth-service,P0,Update documentation for auth-service API endpoints.
+VEN-2030,search-engine,P3,UI CSS alignment issue on search-engine dashboard.
+VEN-2031,order-processor,P3,Slow loading of static assets in order-processor.
+VEN-2032,search-engine,P1,Feature request: add more logging to search-engine.
+VEN-2033,order-processor,P0,Update documentation for order-processor API endpoints.
+VEN-2034,order-processor,P0,Weekly performance report for order-processor ready.
+VEN-2035,payment-gateway,P3,Slow loading of static assets in payment-gateway.
+VEN-2036,order-processor,P2,Duplicate headers in order-processor response.
+VEN-2037,order-processor,P0,Color contrast check failed for order-processor UI.
+VEN-2038,search-engine,P1,Update documentation for search-engine API endpoints.
+VEN-2039,payment-gateway,P0,Feature request: add more logging to payment-gateway.
+VEN-2040,auth-service,P0,Slow loading of static assets in auth-service.
+VEN-2041,inventory-api,P3,Color contrast check failed for inventory-api UI.
+VEN-2042,search-engine,P3,Update documentation for search-engine API endpoints.
+VEN-2043,search-engine,P0,Slow loading of static assets in search-engine.
+VEN-2044,payment-gateway,P0,UI CSS alignment issue on payment-gateway dashboard.
+VEN-2045,notification-hub,P0,Feature request: add more logging to notification-hub.
+VEN-2046,inventory-api,P1,Duplicate headers in inventory-api response.
+VEN-2047,auth-service,P3,Feature request: add more logging to auth-service.
+VEN-2048,inventory-api,P3,Request for architectural review of inventory-api.
+VEN-2049,notification-hub,P3,Color contrast check failed for notification-hub UI.
+VEN-2050,order-processor,P2,Color contrast check failed for order-processor UI.
+VEN-2051,auth-service,P0,Color contrast check failed for auth-service UI.
+VEN-2052,auth-service,P3,Weekly performance report for auth-service ready.
+VEN-2053,notification-hub,P1,Feature request: add more logging to notification-hub.
+VEN-2054,payment-gateway,P0,Minor spelling error in payment-gateway logs.
+VEN-2055,order-processor,P3,Minor spelling error in order-processor logs.
+VEN-2056,order-processor,P1,Minor spelling error in order-processor logs.
+VEN-2057,search-engine,P2,Feature request: add more logging to search-engine.
+VEN-2058,auth-service,P3,Slow loading of static assets in auth-service.
+VEN-2059,search-engine,P0,Slow loading of static assets in search-engine.
+VEN-2060,notification-hub,P3,Update documentation for notification-hub API endpoints.
+VEN-2061,auth-service,P3,Feature request: add more logging to auth-service.
+VEN-2062,notification-hub,P3,Request for architectural review of notification-hub.
+VEN-2063,payment-gateway,P1,UI CSS alignment issue on payment-gateway dashboard.
+VEN-2064,order-processor,P2,Feature request: add more logging to order-processor.
+VEN-2065,order-processor,P3,Request for architectural review of order-processor.
+VEN-2066,search-engine,P0,Broken link in search-engine footer.
+VEN-2067,inventory-api,P3,Request for architectural review of inventory-api.
+VEN-2068,inventory-api,P1,UI CSS alignment issue on inventory-api dashboard.
+VEN-2069,search-engine,P3,Slow loading of static assets in search-engine.
+VEN-2070,payment-gateway,P3,Request for architectural review of payment-gateway.
+VEN-2071,payment-gateway,P2,Update documentation for payment-gateway API endpoints.
+VEN-2072,auth-service,P2,Minor spelling error in auth-service logs.
+VEN-2073,notification-hub,P2,UI CSS alignment issue on notification-hub dashboard.
+VEN-2074,auth-service,P0,Weekly performance report for auth-service ready.
+VEN-2075,auth-service,P2,Duplicate headers in auth-service response.
+VEN-2076,payment-gateway,P2,Feature request: add more logging to payment-gateway.
+VEN-2077,order-processor,P0,Update documentation for order-processor API endpoints.
+VEN-2078,search-engine,P2,Request for architectural review of search-engine.
+VEN-2079,auth-service,P2,Weekly performance report for auth-service ready.
+VEN-2080,notification-hub,P3,Feature request: add more logging to notification-hub.
+VEN-2081,search-engine,P3,Update documentation for search-engine API endpoints.
+VEN-2082,payment-gateway,P3,Slow loading of static assets in payment-gateway.
+VEN-2083,notification-hub,P3,Slow loading of static assets in notification-hub.
+VEN-2084,order-processor,P0,Request for architectural review of order-processor.
+VEN-2085,notification-hub,P1,Minor spelling error in notification-hub logs.
+VEN-2086,notification-hub,P1,Broken link in notification-hub footer.
+VEN-2087,payment-gateway,P2,Broken link in payment-gateway footer.
+VEN-2088,order-processor,P3,Request for architectural review of order-processor.
+VEN-2089,notification-hub,P1,Duplicate headers in notification-hub response.
+VEN-2090,search-engine,P2,Duplicate headers in search-engine response.
+VEN-2091,order-processor,P1,Update documentation for order-processor API endpoints.
+VEN-2092,notification-hub,P0,Color contrast check failed for notification-hub UI.
+VEN-2093,payment-gateway,P1,Feature request: add more logging to payment-gateway.
+VEN-2094,payment-gateway,P2,Minor spelling error in payment-gateway logs.
+VEN-2095,search-engine,P2,Slow loading of static assets in search-engine.
+VEN-2096,search-engine,P3,Color contrast check failed for search-engine UI.
+VEN-2097,notification-hub,P1,Color contrast check failed for notification-hub UI.
+VEN-2098,notification-hub,P3,Weekly performance report for notification-hub ready.
+VEN-2099,auth-service,P3,UI CSS alignment issue on auth-service dashboard.
+VEN-2100,auth-service,P2,Weekly performance report for auth-service ready.
