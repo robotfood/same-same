@@ -5,10 +5,7 @@ Semantic defect deduplication tool.
 ## Installation
 
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -e .
-python3 -m spacy download en_core_web_md
+uv sync --group dev
 ```
 
 ## Usage
@@ -29,7 +26,7 @@ Create a `config.json` file:
 Then run the tool:
 
 ```bash
-same-same --config config.json
+uv run same-same --config config.json
 ```
 
 ## Testing with Mock Data
@@ -38,10 +35,10 @@ You can generate a realistic set of cloud microservices defects (50 internal, 15
 
 ```bash
 # Generate the mock CSV files
-python3 scripts/generate_mock_data.py
+uv run python scripts/generate_mock_data.py
 
 # Run deduplication using the mock configuration
-same-same --config mock_config.json
+uv run same-same --config mock_config.json
 ```
 
 This will produce `mock_deduplication_report.md` in your project root.
